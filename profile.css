@@ -1,0 +1,245 @@
+/*Here onwards menu page css*/
+*{
+	margin:0px;
+	padding:0px;
+	box-sizing: border-box;
+	font-family: 'Poppins', sans-serif;
+	background:#D3D3D3;
+}
+body{
+	background:#D3D3D3;
+	padding:10px;
+}
+.wrapper{
+	text-align:center;
+	margin:40px auto;
+	max-width: 1100px;
+	align-items:center;
+	text-align:center;
+}
+.wrap .heading{
+	padding:0px 0px 0px 300px;
+	width:70%;
+	padding-bottom:50px;
+}
+.wrapper .heading h3{
+	font-size:3em;
+	font-weight:bolder;
+	padding-bottom:10px;
+	border-bottom:3px solid #222;
+}
+.wrapper .heading h3 span{
+	font-weight:100;
+}
+.wrapper nav{
+	padding-top:50px;
+  display: flex;
+  justify-content: center;
+}
+.wrapper .items{
+  display: flex;
+  max-width: 750px;
+  width: 100%;
+  justify-content: space-between;
+}
+.items span{
+  padding: 7px 25px;
+  font-size: 18px;
+  font-weight: 500;
+  cursor: pointer;
+  border-radius: 50px;
+  border: 2px solid #007bff;
+  transition: all 0.3s ease;
+}
+.items span a{
+	text-decoration:none;
+	transition: all 0.3s ease;
+	
+}
+.items span.active,
+.items span:hover,.items span a:hover{
+	text-decoration:none;
+	color: #fff;
+	background: #007bff;
+}
+
+/* menu completed */
+
+
+/*body css*/
+
+
+.alert{
+    margin: 0 30%;
+    border: 2px solid black;
+    padding-top: 20px;
+    align-items: center;
+    padding-top: 20px;
+    text-align: center;
+    background-color: #24262b;
+    align-content: center;
+    padding-bottom: 20px;
+    margin-bottom: 20px;
+    margin-top: 20px;
+    border-radius: 10px;
+    
+}
+
+.alert h2{
+    color: red;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bolder;
+    background-color: #24262b;
+    padding-bottom: 10px;
+    margin-bottom: 10px;
+    padding-top: 20px;
+}
+
+.alert .btn{
+    margin: 10px;
+    text-align: center;
+    align-items: center;
+    background-color: #24262b;
+    align-content: center;
+}
+.alert input{
+    font-size: 15px;
+    padding: 5px;
+    margin: 5px;
+    background: red;
+    border: 2px solid;
+    border-radius: 10px;
+    padding: 10px;
+    padding-left: 20px;
+    padding-right: 20px;
+}
+
+.alert span{
+    position:absolute;
+	top:40%;
+	right:32%;
+	font-size:25px;
+    font-weight: bold;
+	color:#fff;
+	cursor:pointer;
+    background-color: #24262b;
+	
+}
+
+
+/*body css ends*/
+
+/*Here on wards footer css*/
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap');
+
+
+
+.container{
+	max-width: 1170px;
+	margin:auto;
+}
+.row{
+	display: flex;
+	flex-wrap: wrap;
+	
+}
+ul{
+	list-style: none;
+	background-color: #24262b;
+}
+.footer{
+	background-color: #24262b;
+    padding: 70px 0;
+}
+.footer-col{
+   width: 25%;
+   padding: 0 15px;
+   background-color: #24262b;
+}
+.footer-col h4{
+	font-size: 18px;
+	color: #ffffff;
+	text-transform: capitalize;
+	margin-bottom: 35px;
+	font-weight: 500;
+	position: relative;
+	background-color: #24262b;
+}
+.footer-col h4::before{
+	content: '';
+	position: absolute;
+	left:0;
+	bottom: -10px;
+	background-color: #e91e63;
+	height: 2px;
+	box-sizing: border-box;
+	width: 50px;
+}
+.footer-col ul li:not(:last-child){
+	margin-bottom: 10px;
+	background-color: #24262b;
+}
+.footer-col ul li a{
+	font-size: 16px;
+	text-transform: capitalize;
+	color: #ffffff;
+	text-decoration: none;
+	font-weight: 300;
+	color: #bbbbbb;
+	display: block;
+	transition: all 0.3s ease;
+	background-color: #24262b;
+}
+.footer-col ul li a:hover{
+	color: #ffffff;
+	padding-left: 8px;
+}
+.footer-col .social-links{
+	background-color:#24262b;
+}
+.footer-col .social-links a{
+	display: inline-block;
+	height: 40px;
+	width: 40px;
+	margin:0 10px 10px 0;
+	text-align: center;
+	line-height: 40px;
+	border-radius: 50%;
+	color: blue;
+	transition: all 0.5s ease;
+}
+.footer-col .social-links a:hover{
+	color: #24262b;
+	background-color: #ffffff;
+	
+}
+.footer .container .copy
+{
+	text-align: center;
+	font-size: 25px;
+	font-weight: 5px;
+	background-color:#24262b ;
+	color:white;
+	margin-top: 25px;
+}
+.footer .container
+{
+	background-color:#24262b ;
+}
+.footer .container .copy span
+{
+	background-color:#24262b ;
+	
+}
+/*responsive*/
+@media(max-width: 767px){
+  .footer-col{
+    width: 50%;
+    margin-bottom: 30px;
+}
+}
+@media screen (max-width: 574px){
+  .footer-col{
+    width: 100%;
+}
+}

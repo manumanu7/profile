@@ -1,0 +1,353 @@
+/*Here onwards menu page css*/
+*{
+	margin:0px;
+	padding:0px;
+	box-sizing: border-box;
+	font-family: 'Poppins', sans-serif;
+	background:#D3D3D3;
+}
+body{
+	background:#D3D3D3;
+	padding:10px;
+}
+.wrapper{
+	text-align:center;
+	margin:40px auto;
+	max-width: 1100px;
+	align-items:center;
+	text-align:center;
+}
+.wrap .heading{
+	padding:0px 0px 0px 300px;
+	width:70%;
+	padding-bottom:50px;
+}
+.wrapper .heading h3{
+	font-size:3em;
+	font-weight:bolder;
+	padding-bottom:10px;
+	border-bottom:3px solid #222;
+}
+.wrapper .heading h3 span{
+	font-weight:100;
+}
+.wrapper nav{
+	padding-top:50px;
+  display: flex;
+  justify-content: center;
+}
+.wrapper .items{
+  display: flex;
+  max-width: 750px;
+  width: 100%;
+  justify-content: space-between;
+}
+.items span{
+  padding: 7px 25px;
+  font-size: 18px;
+  font-weight: 500;
+  cursor: pointer;
+  border-radius: 50px;
+  border: 2px solid #007bff;
+  transition: all 0.3s ease;
+}
+.items span a{
+	text-decoration:none;
+	transition: all 0.3s ease;
+	
+}
+.items span.active,
+.items span:hover,.items span a:hover{
+	text-decoration:none;
+	color: #fff;
+	background: #007bff;
+}
+
+/*menu css end*/
+
+
+.box{
+    margin: 0 10%;
+    border: 2px solid black;
+    background: #fff;
+    align-content: center;
+    text-align: center;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 20px;
+    margin-top: 10px;
+}
+
+.box .image{
+    text-align: center;
+    align-items: center;
+    background: #fff;
+    align-content: center;
+}
+
+.box img{
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+    position: relative;
+    border: 2px solid black;
+    transition:all 0.5s ease;
+    margin: 20px;
+}
+
+.box img:hover{
+    width: 220px;
+    height: 220px;
+    transition:all 0.5s ease;
+    background: #fff;
+}
+
+.box .edit{
+    background: #fff;
+}
+
+.box .edit button{
+    width: 80px;
+    height: 40px;
+    margin-bottom: 10px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+    position: relative;
+    font-size: 20px;
+    right: -40%;
+    background: red;
+    border-radius: 10px;
+	transition: all 0.5s ease;
+}
+
+.box .edit button:hover{
+	width: 90px;
+	height: 50px;
+	border: 2px solid black;
+	background: white;
+	color: red;
+	transition: all 0.5s ease;
+}
+
+.box .tab{
+	margin: 20px;
+	background: #fff;
+	
+	align-self: center;
+	align-content: center;
+	text-align: center;
+	font-size: 30px;
+	justify-content: space-between;
+	font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.box .item{
+	background: #fff;
+	align-items: center;
+	align-content: center;
+	text-align: center;
+}
+
+.box .item span{
+	background: #fff;
+}
+
+.box .btn{
+	background: #fff;
+}
+.box .btn input{
+	width: 90%;
+	height: 50px;
+	margin: 20px;
+	border-radius: 20px;
+	margin-right: 10px;
+	font-size: 30px;
+	color: white;
+	background: red;
+	border: none;
+	transition: all 0.5s ease;
+}
+
+.box .btn input:hover{
+	width: 95%;
+	height: 55px;
+	border: 2px solid red;
+	background: white;
+	color: red;
+	transition: all 0.5 easy;
+}
+
+.tab .imageupload{
+	background: #fff;
+	margin: 20px;
+	text-align: center;
+	align-items: center;
+	align-content: center;
+}
+.imageupload form{
+	background: #fff;
+}
+
+.box .imageupload .lab{
+	margin: 20px;
+	background: #fff;
+	font-size: 50px;
+	text-decoration: underline;
+	padding-bottom: 20px;
+	margin-bottom: 50px;
+
+}
+
+.box .imageupload #file{
+	background: #fff;
+	margin: 20px;
+	font-size: 20px;
+	justify-content: space-between;
+	font-family: Verdana, Geneva, Tahoma, sans-serif;
+	align-items: center;
+	align-content: center;
+	text-align: center;
+	padding-top: 30px;
+}
+
+.box .imageupload .but{
+	background: #fff;
+}
+
+.box .imageupload .but input{
+	width: 90%;
+	height: 40px;
+	border: none;
+	border-radius: 20px;
+	font-size: 30px;
+	font-family: Verdana, Geneva, Tahoma, sans-serif;
+	font-weight: bold;
+	color: white;
+	background: red;
+	transition: all 0.5 ease;
+}
+
+.box .imageupload .but input:hover{
+	border: 2px solid red;
+	width: 95%;
+	height: 45px;
+	color: red;
+	background: white;
+	transition: all 0.5 ease;
+
+}
+
+
+
+/*Here on wards footer css*/
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap');
+
+.container{
+	max-width: 1170px;
+	margin:auto;
+}
+.row{
+	display: flex;
+	flex-wrap: wrap;
+	
+}
+ul{
+	list-style: none;
+	background-color: #24262b;
+}
+.footer{
+	background-color: #24262b;
+    padding: 70px 0;
+}
+.footer-col{
+   width: 25%;
+   padding: 0 15px;
+   background-color: #24262b;
+}
+.footer-col h4{
+	font-size: 18px;
+	color: #ffffff;
+	text-transform: capitalize;
+	margin-bottom: 35px;
+	font-weight: 500;
+	position: relative;
+	background-color: #24262b;
+}
+.footer-col h4::before{
+	content: '';
+	position: absolute;
+	left:0;
+	bottom: -10px;
+	background-color: #e91e63;
+	height: 2px;
+	box-sizing: border-box;
+	width: 50px;
+}
+.footer-col ul li:not(:last-child){
+	margin-bottom: 10px;
+	background-color: #24262b;
+}
+.footer-col ul li a{
+	font-size: 16px;
+	text-transform: capitalize;
+	color: #ffffff;
+	text-decoration: none;
+	font-weight: 300;
+	color: #bbbbbb;
+	display: block;
+	transition: all 0.3s ease;
+	background-color: #24262b;
+}
+.footer-col ul li a:hover{
+	color: #ffffff;
+	padding-left: 8px;
+}
+.footer-col .social-links{
+	background-color:#24262b;
+}
+.footer-col .social-links a{
+	display: inline-block;
+	height: 40px;
+	width: 40px;
+	margin:0 10px 10px 0;
+	text-align: center;
+	line-height: 40px;
+	border-radius: 50%;
+	color: blue;
+	transition: all 0.5s ease;
+}
+.footer-col .social-links a:hover{
+	color: #24262b;
+	background-color: #ffffff;
+	
+}
+.footer .container .copy
+{
+	text-align: center;
+	font-size: 25px;
+	font-weight: 5px;
+	background-color:#24262b ;
+	color:white;
+	margin-top: 25px;
+}
+.footer .container
+{
+	background-color:#24262b ;
+}
+.footer .container .copy span
+{
+	background-color:#24262b ;
+	
+}
+/*responsive*/
+@media(max-width: 767px){
+  .footer-col{
+    width: 50%;
+    margin-bottom: 30px;
+}
+}
+@media(max-width: 574px){
+  .footer-col{
+    width: 100%;
+}
+}
